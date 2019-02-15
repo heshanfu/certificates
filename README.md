@@ -47,10 +47,22 @@ These instructions will install an OS specific version of the `step` binary on y
 
 ### Mac OS
 
-Install `step` via [Homebrew](https://brew.sh/). The Homebrew formula installs both `step cli` and `step certificates`.
+Install `step` via [Homebrew](https://brew.sh/). The
+[Homebrew Formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/step.rb)
+installs both `step cli` and `step certificates`.
 
 ```
-brew install smallstep/smallstep/step
+brew install step
+
+# test ...
+step certificate inspect https://smallstep.com
+```
+
+> Note: If you have installed `step` previously through the `smallstep/smallstep`
+> tap you will need to run the following commands before installing:
+```
+brew untap smallstep/smallstep
+brew uninstall step
 ```
 
 ### Linux
