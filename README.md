@@ -18,7 +18,7 @@ An online certificate authority and related tools for secure automated certifica
 [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates.svg?style=social)](https://github.com/smallstep/certificates/stargazers)
 [![Twitter followers](https://img.shields.io/twitter/follow/smallsteplabs.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=smallsteplabs)
 
-![Animated terminal showing step certificates in practice](https://github.com/smallstep/certificates/raw/master/images/step-ca.gif)
+![Animated terminal showing step certificates in practice](https://github.com/smallstep/certificates/raw/master/images/step-ca-2-legged.gif)
 
 ## Motivation
 
